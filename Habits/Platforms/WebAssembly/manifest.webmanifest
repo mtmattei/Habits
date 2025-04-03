@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Habits",
+  "display": "standalone",
+  "name": "Habits",
+  "short_name": "Habits",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

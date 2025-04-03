@@ -1,0 +1,183 @@
+is_global = true
+build_property.PackageReferenceProperty = Uno.WinUI,Uno.Resizetizer,Uno.Sdk.Extras,Uno.Settings.DevServer,Uno.UI.HotDesign,Uno.WinUI.DevServer,Uno.UI.Adapter.Microsoft.Extensions.Logging,Microsoft.Extensions.Logging.Console,Uno.Toolkit.WinUI,Uno.Toolkit.WinUI.Material,Uno.Material.WinUI,Uno.Dsp.Tasks,CommunityToolkit.Mvvm,Uno.Fonts.OpenSans,Uno.Extensions.Core.WinUI,Uno.WinUI.Lottie,SkiaSharp.Views.Uno.WinUI,SkiaSharp.Skottie,Uno.UniversalImageLoader,Xamarin.Google.Android.Material,Xamarin.AndroidX.Legacy.Support.V4,Xamarin.AndroidX.AppCompat,Xamarin.AndroidX.RecyclerView,Xamarin.AndroidX.Activity,Xamarin.AndroidX.Browser,Xamarin.AndroidX.SwipeRefreshLayout,Microsoft.NET.ILLink.Tasks
+build_property.ProjectReferenceProperty = 
+build_property.UnoSdkVersion = 5.6.51
+build_property.HotDesignUnoAssets = Assets\SharedAssets.md,Assets\Icons\icon_foreground.png,Assets\Icons\icon_foreground.scale-100.png,Assets\Icons\icon_foreground.scale-125.png,Assets\Icons\icon_foreground.scale-150.png,Assets\Icons\icon_foreground.scale-200.png,Assets\Icons\icon_foreground.scale-300.png,Assets\Icons\icon_foreground.scale-400.png,splash_screen.png,splash_screen.scale-100.png,splash_screen.scale-125.png,splash_screen.scale-150.png,splash_screen.scale-200.png,splash_screen.scale-300.png,splash_screen.scale-400.png,Uno.Fonts.Fluent\Fonts\uno-fluentui-assets.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-Bold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-BoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-ExtraBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-ExtraBoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-Italic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-Light.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-LightItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-Medium.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-MediumItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-Regular.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-SemiBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans-SemiBoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans.ttf.manifest,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-Bold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-BoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-ExtraBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-ExtraBoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-Italic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-Light.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-LightItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-Medium.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-MediumItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-Regular.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-SemiBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_Condensed-SemiBoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-Bold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-BoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-ExtraBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-ExtraBoldItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-Italic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-Light.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-LightItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-Medium.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-MediumItalic.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-Regular.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-SemiBold.ttf,Uno.Fonts.OpenSans\Fonts\OpenSans_SemiCondensed-SemiBoldItalic.ttf,Uno.Fonts.Roboto\Fonts\Roboto-Light.ttf,Uno.Fonts.Roboto\Fonts\Roboto-Medium.ttf,Uno.Fonts.Roboto\Fonts\Roboto-Regular.ttf
+build_property.UnoExtensionsGeneration_DisableDynamicallyAccessedMembersAttribute = 
+build_property.UnoExtensionsGeneration_DisableMaybeNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableMaybeNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableMemberNotNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableMemberNotNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableNotNullIfNotNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableNotNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableMetadataUpdateHandlerAttribute = 
+build_property.UnoExtensionsGeneration_DisableCreateNewOnMetadataUpdateAttribute = 
+build_property.UnoExtensionsGeneration_DisableIsExternalInit = 
+build_property.UnoExtensionsGeneration_DisableMetadataUpdateOriginalTypeAttribute = 
+build_property.UnoExtensionsGeneration_DisableModuleInitializerAttribute = 
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.XamlSourceGeneratorTracingFolder = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetFramework = net9.0-android
+build_property.ProjectTypeGuidsProperty = 
+build_property.MSBuildProjectFullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Habits.csproj
+build_property.RootNamespace = Habits
+build_property.RootNamespace = Habits
+build_property.DefineConstantsProperty = TRACE,DISABLE_XAML_GENERATED_BREAK_ON_UNHANDLED_EXCEPTION,DEBUG,NET,NET9_0,NETCOREAPP,__XAMARIN_ANDROID_v1_0__,__MOBILE__,__ANDROID__,__ANDROID_1__,__ANDROID_2__,__ANDROID_3__,__ANDROID_4__,__ANDROID_5__,__ANDROID_6__,__ANDROID_7__,__ANDROID_8__,__ANDROID_9__,__ANDROID_10__,__ANDROID_11__,__ANDROID_12__,__ANDROID_13__,__ANDROID_14__,__ANDROID_15__,__ANDROID_16__,__ANDROID_17__,__ANDROID_18__,__ANDROID_19__,__ANDROID_20__,__ANDROID_21__,__ANDROID_22__,__ANDROID_23__,__ANDROID_24__,__ANDROID_25__,__ANDROID_26__,__ANDROID_27__,__ANDROID_28__,__ANDROID_29__,__ANDROID_30__,__ANDROID_31__,__ANDROID_32__,__ANDROID_33__,__ANDROID_34__,__ANDROID_35__,HAS_UNO,HAS_UNO_WINUI,WINUI_WINDOWING,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,ANDROID,ANDROID35_0,NET5_0_OR_GREATER,NET6_0_OR_GREATER,NET7_0_OR_GREATER,NET8_0_OR_GREATER,NET9_0_OR_GREATER,NETCOREAPP1_0_OR_GREATER,NETCOREAPP1_1_OR_GREATER,NETCOREAPP2_0_OR_GREATER,NETCOREAPP2_1_OR_GREATER,NETCOREAPP2_2_OR_GREATER,NETCOREAPP3_0_OR_GREATER,NETCOREAPP3_1_OR_GREATER,ANDROID21_0_OR_GREATER,ANDROID22_0_OR_GREATER,ANDROID23_0_OR_GREATER,ANDROID24_0_OR_GREATER,ANDROID25_0_OR_GREATER,ANDROID26_0_OR_GREATER,ANDROID27_0_OR_GREATER,ANDROID28_0_OR_GREATER,ANDROID29_0_OR_GREATER,ANDROID30_0_OR_GREATER,ANDROID31_0_OR_GREATER,ANDROID32_0_OR_GREATER,ANDROID33_0_OR_GREATER,ANDROID34_0_OR_GREATER,ANDROID35_0_OR_GREATER
+build_property.Configuration = Debug
+build_property.IntermediateOutputPath = obj\Debug\net9.0-android\
+build_property.AndroidApplication = true
+build_property.OutputType = Library
+build_property.MSBuildProjectName = Habits
+build_property.BuildingProject = False
+build_property.DesignTimeBuild = True
+build_property.UnoUISourceGeneratorDebuggerBreak = 
+build_property.BuildingInsideVisualStudio = 
+build_property.UnoPlatformIDE = rider
+build_property.IsHotReloadHost = 
+build_property.UnoGenerateXamlSourcesProvider = 
+build_property.UnoForceHotReloadCodeGen = 
+build_property.UnoForceIncludeProjectConfiguration = 
+build_property.UnoForceIncludeServerProcessorsConfiguration = 
+build_property.IsUnoHead = true
+build_property.IsUnoHead = true
+build_property.UnoDisableHotRestartHelperGeneration = 
+build_property.RuntimeIdentifier = 
+build_property.UnoRuntimeIdentifier = 
+build_property.UnoHotReloadMode = 
+build_property.SolutionFileName = Habits.sln
+build_property.LangName = 
+build_property.LangID = 
+build_property.SolutionDir = C:\Users\Platform006\RiderProjects\Habits\
+build_property.SolutionExt = .sln
+build_property.UseHostCompilerIfAvailable = true
+build_property.DefineExplicitDefaults = 
+build_property.Platform = AnyCPU
+build_property.SolutionPath = C:\Users\Platform006\RiderProjects\Habits\Habits.sln
+build_property.SolutionName = Habits
+build_property.VSIDEResolvedNonMSBuildProjectOutputs = 
+build_property.DevEnvDir = *Undefined*
+build_property.MSBuildVersion = 17.13.13
+build_property.UseWPF = 
+build_property.UnoRemoteControlPort = 52412#
+build_property.UnoRemoteControlHost = 
+build_property.UnoRemoteControlProcessorsPath = C:\Users\Platform006\.nuget\packages\uno.winui.devserver\5.6.91\buildTransitive\../tools/rc/processors
+build_property.UnoRemoteControlConfigCookie = 
+build_property.UnoHotReloadDiagnosticsLogPath = 
+build_property.AppendRuntimeIdentifierToOutputPath = true
+build_property.OutputPath = bin\Debug\net9.0-android\
+build_property.UnoDisableBindableTypeProvidersGeneration = 
+build_property.ShouldWriteErrorOnInvalidXaml = 
+build_property.IsUiAutomationMappingEnabled = 
+build_property.ShouldAnnotateGeneratedXaml = 
+build_property.DefaultLanguage = en
+build_property.UnoPlatformTelemetryOptOut = 
+build_property.UnoPlatformDefaultSymbolsFontFamily = ms-appx:///Uno.Fonts.Fluent/Fonts/uno-fluentui-assets.ttf
+build_property.ExcludeXamlNamespacesProperty = win,not_mux,ios,wasm,macos,skia,not_android
+build_property.IncludeXamlNamespacesProperty = xamarin,not_win,legacy,android,not_ios,not_wasm,not_macos,not_skia,not_netstdref
+build_property.XamlGeneratorAnalyzerSuppressionsProperty = csharp-618 // Ignore obsolete members warnings,csharp-105 // Ignore duplicate namespaces,csharp-1591 // Ignore missing XML comment warnings,csharp-CS8669 // Ignore annotation for nullable reference types,csharp-CS9113 // Parameter is unread
+build_property.UnoEnableXamlFuzzyMatching = 
+build_property.UnoXamlResourcesTrimming = 
+build_property.BaseIntermediateOutputPath = obj\
+build_property.AssemblyName = Habits
+build_property.UnoDefaultFont = OpenSans
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.ProjectDir = C:\Users\Platform006\RiderProjects\Habits\Habits\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/MainPage.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\MainPage.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\MainPage.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ButtonStyles.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ButtonStyles.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ButtonStyles.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ColorPaletteOverride.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ColorPaletteOverride.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ColorPaletteOverride.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ItemTemplates.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ItemTemplates.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ItemTemplates.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ListViewStyles.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ListViewStyles.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ListViewStyles.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ProgressStyles.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ProgressStyles.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ProgressStyles.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ResponsiveResources.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ResponsiveResources.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ResponsiveResources.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Styles/ThemeResources.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ThemeResources.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Styles\ThemeResources.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/App.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = ApplicationDefinition
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\App.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\App.xaml
+build_metadata.AdditionalFiles.XamlRuntime = WinUI
+
+[C:/Users/Platform006/RiderProjects/Habits/Habits/Strings/en/Resources.resw]
+build_metadata.AdditionalFiles.SourceItemGroup = PRIResource
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\Habits\Habits\Strings\en\Resources.resw
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\Habits\Habits\Strings\en\Resources.resw
+build_metadata.AdditionalFiles.XamlRuntime = 

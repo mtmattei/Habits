@@ -1,0 +1,526 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Habits.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Habits.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Habits.csproj",
+        "projectName": "Habits",
+        "projectPath": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Habits.csproj",
+        "packagesPath": "C:\\Users\\Platform006\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Platform006\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android",
+          "net9.0-browserwasm",
+          "net9.0-desktop"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {}
+          },
+          "net9.0-browserwasm1.0": {
+            "targetAlias": "net9.0-browserwasm",
+            "projectReferences": {}
+          },
+          "net9.0-desktop1.0": {
+            "targetAlias": "net9.0-desktop",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1507"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Skottie": {
+              "target": "Package",
+              "version": "[2.88.9, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Uno.WinUI": {
+              "target": "Package",
+              "version": "[2.88.9, )",
+              "autoReferenced": true
+            },
+            "Uno.Dsp.Tasks": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Extensions.Core.WinUI": {
+              "target": "Package",
+              "version": "[5.2.7, )",
+              "autoReferenced": true
+            },
+            "Uno.Fonts.OpenSans": {
+              "target": "Package",
+              "version": "[2.5.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[5.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Resizetizer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.7.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Sdk.Extras": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.3, )",
+              "autoReferenced": true
+            },
+            "Uno.Settings.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.22, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.HotDesign": {
+              "target": "Package",
+              "version": "[1.8.13, )",
+              "autoReferenced": true
+            },
+            "Uno.UniversalImageLoader": {
+              "target": "Package",
+              "version": "[1.9.37, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.DevServer": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Lottie": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Activity": {
+              "target": "Package",
+              "version": "[1.9.2.1, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.7.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.8.0.6, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.23, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.RecyclerView": {
+              "target": "Package",
+              "version": "[1.3.2.8, )",
+              "autoReferenced": true
+            },
+            "Xamarin.AndroidX.SwipeRefreshLayout": {
+              "target": "Package",
+              "version": "[1.1.0.24, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.11.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-browserwasm1.0": {
+          "targetAlias": "net9.0-browserwasm",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "Uno.Dsp.Tasks": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Extensions.Core.WinUI": {
+              "target": "Package",
+              "version": "[5.2.7, )",
+              "autoReferenced": true
+            },
+            "Uno.Extensions.Logging.WebAssembly.Console": {
+              "target": "Package",
+              "version": "[1.7.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Fonts.OpenSans": {
+              "target": "Package",
+              "version": "[2.5.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[5.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Resizetizer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.7.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Sdk.Extras": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.3, )",
+              "autoReferenced": true
+            },
+            "Uno.Settings.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.22, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.HotDesign": {
+              "target": "Package",
+              "version": "[1.8.13, )",
+              "autoReferenced": true
+            },
+            "Uno.Wasm.Bootstrap": {
+              "target": "Package",
+              "version": "[9.0.14, )",
+              "autoReferenced": true
+            },
+            "Uno.Wasm.Bootstrap.DevServer": {
+              "target": "Package",
+              "version": "[9.0.14, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.DevServer": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Lottie": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Runtime.WebAssembly": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-desktop1.0": {
+          "targetAlias": "net9.0-desktop",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Skottie": {
+              "target": "Package",
+              "version": "[2.88.9, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Uno.WinUI": {
+              "target": "Package",
+              "version": "[2.88.9, )",
+              "autoReferenced": true
+            },
+            "Uno.Dsp.Tasks": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Extensions.Core.WinUI": {
+              "target": "Package",
+              "version": "[5.2.7, )",
+              "autoReferenced": true
+            },
+            "Uno.Fonts.OpenSans": {
+              "target": "Package",
+              "version": "[2.5.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[5.4.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Resizetizer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.7.0, )",
+              "autoReferenced": true
+            },
+            "Uno.Sdk.Extras": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.6.3, )",
+              "autoReferenced": true
+            },
+            "Uno.Settings.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.22, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[6.4.5, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.HotDesign": {
+              "target": "Package",
+              "version": "[1.8.13, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.DevServer": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Graphics2DSK": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Lottie": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Runtime.Skia.Linux.FrameBuffer": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Runtime.Skia.MacOS": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Runtime.Skia.Wpf": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Runtime.Skia.X11": {
+              "target": "Package",
+              "version": "[5.6.91, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

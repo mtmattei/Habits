@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:utu="using:Uno.Toolkit.UI">
+
+    <!-- Define breakpoint values - these are simple numeric values -->
+    <x:Double x:Key="SmallBreakpoint">0</x:Double>
+    <x:Double x:Key="MediumBreakpoint">640</x:Double>
+    <x:Double x:Key="LargeBreakpoint">1008</x:Double>
+
+    <!-- Mobile-specific margins and spacing -->
+    <Thickness x:Key="MobilePageMargin">12,20,12,0</Thickness>
+    <Thickness x:Key="MobileItemMargin">0,5,0,0</Thickness>
+    <x:Double x:Key="MobileColumnSpacing">10</x:Double>
+    <x:Double x:Key="MobileRowSpacing">5</x:Double>
+    <x:Double x:Key="MobileButtonSize">36</x:Double>
+    <x:Double x:Key="MobileProgressSize">45</x:Double>
+    <x:Double x:Key="MobileTitleFontSize">14</x:Double>
+    <x:Double x:Key="MobileDescriptionFontSize">12</x:Double>
+    <x:Double x:Key="MobileAmountFontSize">16</x:Double>
+
+    <!-- Tablet-specific margins and spacing -->
+    <Thickness x:Key="TabletPageMargin">20,25,20,0</Thickness>
+    <Thickness x:Key="TabletItemMargin">0,8,0,0</Thickness>
+    <x:Double x:Key="TabletColumnSpacing">20</x:Double>
+    <x:Double x:Key="TabletRowSpacing">8</x:Double>
+    <x:Double x:Key="TabletButtonSize">40</x:Double>
+    <x:Double x:Key="TabletProgressSize">50</x:Double>
+    <x:Double x:Key="TabletTitleFontSize">16</x:Double>
+    <x:Double x:Key="TabletDescriptionFontSize">14</x:Double>
+    <x:Double x:Key="TabletAmountFontSize">18</x:Double>
+
+    <!-- Desktop-specific margins and spacing -->
+    <Thickness x:Key="DesktopPageMargin">30,30,30,0</Thickness>
+    <Thickness x:Key="DesktopItemMargin">0,10,0,0</Thickness>
+    <x:Double x:Key="DesktopColumnSpacing">25</x:Double>
+    <x:Double x:Key="DesktopRowSpacing">10</x:Double>
+    <x:Double x:Key="DesktopButtonSize">44</x:Double>
+    <x:Double x:Key="DesktopProgressSize">55</x:Double>
+    <x:Double x:Key="DesktopTitleFontSize">18</x:Double>
+    <x:Double x:Key="DesktopDescriptionFontSize">16</x:Double>
+    <x:Double x:Key="DesktopAmountFontSize">20</x:Double>
+</ResourceDictionary>

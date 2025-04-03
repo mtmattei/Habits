@@ -1,0 +1,3650 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Habits</name>
+    </assembly>
+    <members>
+        <member name="M:Habits.App.#ctor">
+            <summary>
+            Initializes the singleton application object. This is the first line of authored code
+            executed, and as such is the logical equivalent of main() or WinMain().
+            </summary>
+        </member>
+        <member name="M:Habits.App.OnNavigationFailed(System.Object,Microsoft.UI.Xaml.Navigation.NavigationFailedEventArgs)">
+            <summary>
+            Invoked when Navigation to a certain page fails
+            </summary>
+            <param name="sender">The Frame which failed navigation</param>
+            <param name="e">Details about the navigation failure</param>
+        </member>
+        <member name="T:Habits.App.DrawableResourcesIdResolver">
+            <summary>
+            Resolves the Id of a bundled image.
+            </summary>
+        </member>
+        <member name="M:Habits.MainPage.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Native constructor, do not use explicitly.
+            </summary>
+            <remarks>
+            Used by the Xamarin Runtime to materialize native 
+            objects that may have been collected in the managed world.
+            </remarks>
+        </member>
+        <member name="T:Habits.Models.ColorCategory">
+            <summary>
+            Represents predefined color categories for habits
+            </summary>
+        </member>
+        <member name="F:Habits.Models.ColorCategory.Orange">
+            <summary>
+            Orange-based colors for medium priority or in-progress items
+            </summary>
+        </member>
+        <member name="F:Habits.Models.ColorCategory.Green">
+            <summary>
+            Green-based colors for success or completed items
+            </summary>
+        </member>
+        <member name="F:Habits.Models.ColorCategory.Blue">
+            <summary>
+            Blue-based colors for informational or ongoing items
+            </summary>
+        </member>
+        <member name="F:Habits.Models.ColorCategory.Red">
+            <summary>
+            Red/Pink-based colors for important or urgent items
+            </summary>
+        </member>
+        <member name="F:Habits.Models.ColorCategory.Purple">
+            <summary>
+            Purple-based colors for special or creative items
+            </summary>
+        </member>
+        <member name="T:Habits.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Habits.ViewModels.MainPageViewModel.Habits">
+            <inheritdoc cref="F:Habits.ViewModels.MainPageViewModel._habits"/>
+        </member>
+        <member name="P:Habits.ViewModels.MainPageViewModel.IsLoading">
+            <inheritdoc cref="F:Habits.ViewModels.MainPageViewModel._isLoading"/>
+        </member>
+        <member name="F:Habits.ViewModels.MainPageViewModel.loadDataCommand">
+            <summary>The backing field for <see cref="P:Habits.ViewModels.MainPageViewModel.LoadDataCommand"/>.</summary>
+        </member>
+        <member name="P:Habits.ViewModels.MainPageViewModel.LoadDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Habits.ViewModels.MainPageViewModel.LoadDataAsync"/>.</summary>
+        </member>
+        <member name="T:Habits.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_006">
+            <summary>
+            Builder for Android.Views.View
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_005">
+            <summary>
+            Builder for Android.Views.ViewGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_004">
+            <summary>
+            Builder for Uno.UI.UnoViewGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_003">
+            <summary>
+            Builder for Uno.UI.Controls.BindableView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_002">
+            <summary>
+            Builder for Microsoft.UI.Xaml.UIElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_001">
+            <summary>
+            Builder for Microsoft.UI.Xaml.FrameworkElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_000">
+            <summary>
+            Builder for SkiaSharp.Views.Windows.SKSwapChainPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_009">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Panel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_008">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Canvas
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_007">
+            <summary>
+            Builder for SkiaSharp.Views.Windows.SKXamlCanvas
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_012">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Control
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_011">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ContentControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_010">
+            <summary>
+            Builder for Uno.Material.Ripple
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_013">
+            <summary>
+            Builder for Uno.Themes.ControlExtensions
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_014">
+            <summary>
+            Builder for Uno.Toolkit.UI.SelectorExtensions
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_016">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RelativePanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_015">
+            <summary>
+            Builder for Uno.Toolkit.UI.AutoLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_017">
+            <summary>
+            Builder for Uno.Toolkit.UI.CardContentControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_018">
+            <summary>
+            Builder for Uno.Toolkit.UI.Card
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_021">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_020">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ToggleButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_019">
+            <summary>
+            Builder for Uno.Toolkit.UI.Chip
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_023">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_022">
+            <summary>
+            Builder for Uno.Toolkit.UI.ChipGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_024">
+            <summary>
+            Builder for Uno.Toolkit.UI.Divider
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_025">
+            <summary>
+            Builder for Uno.Toolkit.UI.DrawerControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_026">
+            <summary>
+            Builder for Uno.Toolkit.UI.DrawerFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_028">
+            <summary>
+            Builder for Uno.Toolkit.UI.LoadingView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_027">
+            <summary>
+            Builder for Uno.Toolkit.UI.ExtendedSplashScreen
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_029">
+            <summary>
+            Builder for Uno.Toolkit.UI.CompositeLoadableSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_030">
+            <summary>
+            Builder for Uno.Toolkit.UI.LoadableSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_031">
+            <summary>
+            Builder for Uno.Toolkit.UI.CommandBarExtensions
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_033">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Grid
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_032">
+            <summary>
+            Builder for Uno.Toolkit.UI.NativeFramePresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_035">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ContentPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_034">
+            <summary>
+            Builder for Uno.Toolkit.UI.NativeNavigationBarPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_036">
+            <summary>
+            Builder for Uno.Toolkit.UI.NavigationBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_037">
+            <summary>
+            Builder for Uno.Toolkit.UI.NavigationBarPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_038">
+            <summary>
+            Builder for Uno.Toolkit.UI.NavigationBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_039">
+            <summary>
+            Builder for Uno.Toolkit.UI.ResponsiveView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_040">
+            <summary>
+            Builder for Uno.Toolkit.UI.SafeArea
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_041">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_043">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.SelectorItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_042">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBarItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_044">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBarListPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_045">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBarSelectionIndicatorPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_046">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBarSelectionIndicatorPresenterTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_047">
+            <summary>
+            Builder for Uno.Toolkit.UI.TabBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_048">
+            <summary>
+            Builder for Uno.Toolkit.UI.ZoomContentControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_049">
+            <summary>
+            Builder for Uno.Toolkit.UI.ResponsiveLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_051">
+            <summary>
+            Builder for Microsoft.UI.Xaml.StateTriggerBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_050">
+            <summary>
+            Builder for Microsoft.UI.Xaml.AdaptiveTrigger
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_053">
+            <summary>
+            Builder for Microsoft.UI.Xaml.FrameworkTemplate
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_052">
+            <summary>
+            Builder for Microsoft.UI.Xaml.DataTemplate
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_055">
+            <summary>
+            Builder for Microsoft.UI.Xaml.DependencyObjectCollectionBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_054">
+            <summary>
+            Builder for Microsoft.UI.Xaml.DependencyObjectCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_057">
+            <summary>
+            Builder for Microsoft.UI.Xaml.TriggerBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_056">
+            <summary>
+            Builder for Microsoft.UI.Xaml.EventTrigger
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_058">
+            <summary>
+            Builder for Microsoft.UI.Xaml.PropertyPath
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_060">
+            <summary>
+            Builder for Microsoft.UI.Xaml.SetterBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_059">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Setter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_061">
+            <summary>
+            Builder for Microsoft.UI.Xaml.SetterBaseCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_062">
+            <summary>
+            Builder for Microsoft.UI.Xaml.StateTrigger
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_063">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Style
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_064">
+            <summary>
+            Builder for Microsoft.UI.Xaml.TriggerAction
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_065">
+            <summary>
+            Builder for Microsoft.UI.Xaml.VisualState
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_066">
+            <summary>
+            Builder for Microsoft.UI.Xaml.VisualStateGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_067">
+            <summary>
+            Builder for Microsoft.UI.Xaml.VisualStateManager
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_068">
+            <summary>
+            Builder for Microsoft.UI.Xaml.VisualTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_079">
+            <summary>
+            Builder for Android.Content.Context
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_078">
+            <summary>
+            Builder for Android.Content.ContextWrapper
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_077">
+            <summary>
+            Builder for Android.Views.ContextThemeWrapper
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_076">
+            <summary>
+            Builder for Android.App.Activity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_075">
+            <summary>
+            Builder for AndroidX.Core.App.ComponentActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_074">
+            <summary>
+            Builder for AndroidX.Activity.ComponentActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_073">
+            <summary>
+            Builder for AndroidX.Fragment.App.FragmentActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_072">
+            <summary>
+            Builder for AndroidX.AppCompat.App.AppCompatActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_071">
+            <summary>
+            Builder for Uno.UI.BaseActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_070">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativePage
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_069">
+            <summary>
+            Builder for Microsoft.UI.Xaml.ApplicationActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_080">
+            <summary>
+            Builder for Microsoft.UI.Xaml.AttachedDependencyObject
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_081">
+            <summary>
+            Builder for Microsoft.UI.Xaml.ElementStub
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_082">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.AutomationAnnotation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_083">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.AutomationProperties
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_086">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_085">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_084">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AnimatedVisualPlayerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_087">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_090">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ButtonBaseAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_089">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_088">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_092">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ToggleButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_091">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AppBarToggleButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_093">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_094">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.AutoSuggestBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_095">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.BreadcrumbBarItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_096">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_097">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.CheckBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_100">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_099">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SliderAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_098">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ColorPickerSliderAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_101">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ColorSpectrumAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_104">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ItemsControlAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_103">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_102">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_105">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ComboBoxItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_108">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_107">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_106">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ComboBoxItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_109">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.DatePickerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_110">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.DatePickerFlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_111">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.DropDownButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_112">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_113">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.FlipViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_114">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.FlipViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_115">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.FlipViewItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_116">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.FlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_118">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_117">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.GridViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_120">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewBaseHeaderItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_119">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.GridViewHeaderItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_121">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.GridViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_122">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.GridViewItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_123">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.GroupItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_124">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.HubAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_125">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.HubSectionAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_126">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.HyperlinkButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_127">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ImageAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_128">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.InfoBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_129">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ItemContainerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_130">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ItemsViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_131">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_132">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListBoxItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_133">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListBoxItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_134">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListPickerFlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_135">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_136">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewHeaderItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_137">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_138">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ListViewItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_139">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_140">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_141">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_142">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MediaPlayerElementAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_143">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MediaTransportControlsAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_144">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MenuBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_145">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_146">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MenuFlyoutItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_147">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.MenuFlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_148">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.NavigationViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_149">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.NavigationViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_150">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.NumberBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_151">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_152">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PersonPictureAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_153">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PickerFlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_154">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PipsPagerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_155">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_156">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PivotItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_157">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PivotItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_158">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ProgressBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_159">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ProgressRingAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_160">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_161">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RadioButtonsAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_162">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RatingControlAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_163">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RepeatButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_164">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RepeaterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_165">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RichEditBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_166">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RichTextBlockAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_167">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.RichTextBlockOverflowAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_168">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ScrollBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_169">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ScrollPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_170">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_171">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SelectorBarItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_172">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_173">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.SplitButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_174">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TabViewAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_175">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TabViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_176">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TeachingTipAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_177">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TextBlockAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_178">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TextBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_179">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ThumbAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_180">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TimePickerAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_181">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TimePickerFlyoutPresenterAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_182">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_183">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ToggleSplitButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_184">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_185">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TreeViewItemAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_186">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_187">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_188">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.WebView2AutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_189">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Peers.PagerControlAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_190">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_192">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.IconElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_191">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AnimatedIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_194">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.IconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_193">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AnimatedIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_195">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_196">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AnnotatedScrollBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_197">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AppBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_199">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Button
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_198">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AppBarButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_200">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AppBarElementContainer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_201">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AppBarSeparator
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_202">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AppBarToggleButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_203">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_204">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AutoSuggestBoxQuerySubmittedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_205">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_206">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_207">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.BitmapIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_208">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.BitmapIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_209">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Border
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_210">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.BreadcrumbBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_211">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.BreadcrumbBarItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_212">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CalendarDatePicker
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_213">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CalendarView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_215">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CalendarViewBaseItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_214">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CalendarViewDayItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_216">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CheckBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_217">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ColorPicker
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_218">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ColumnDefinition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_220">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.Selector
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_219">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ComboBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_221">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ComboBoxItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_222">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CommandBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_224">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_223">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CommandBarFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_225">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_226">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ContentDialog
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_227">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ControlTemplate
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_228">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePickedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_229">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePicker
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_231">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_230">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePickerFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_232">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_233">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_234">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DropDownButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_235">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Expander
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_236">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_237">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FlipView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_238">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FlipViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_239">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Flyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_240">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_241">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FontIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_242">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FontIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_243">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Frame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_245">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListViewBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_244">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.GridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_247">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListViewBaseHeaderItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_246">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.GridViewHeaderItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_248">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.GridViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_249">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.GroupItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_250">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Hub
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_251">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.HubSection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_252">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.HyperlinkButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_253">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.IconSourceElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_254">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Image
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_255">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ImageIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_256">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ImageIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_257">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.InfoBadge
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_258">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_259">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.InfoBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_260">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_261">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemContainer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_262">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsPanelTemplate
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_263">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsPickedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_264">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_265">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsRepeater
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_266">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsRepeaterScrollHost
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_267">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsStackPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_268">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_269">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ItemsWrapGrid
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_270">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Layout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_271">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.LayoutContext
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_273">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.VirtualizingLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_272">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.LinedFlowLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_274">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_275">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListBoxItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_276">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListPickerFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_277">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListPickerFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_278">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_279">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListViewHeaderItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_280">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_281">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MapControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_282">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MapElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_284">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MapLayer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_283">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MapElementsLayer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_285">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MapIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_286">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MediaPlayerElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_287">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MediaPlayerPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_288">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MediaTransportControls
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_289">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_290">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuBarItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_292">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_291">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuBarItemFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_294">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_293">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyoutItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_295">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_296">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyoutSeparator
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_297">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_298">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_300">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_299">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_301">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationViewItemHeader
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_302">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_303">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_304">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NonVirtualizingLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_305">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NonVirtualizingLayoutContext
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_306">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NumberBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_308">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.UserControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_307">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Page
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_309">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ParallaxView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_311">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TextBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_310">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PasswordBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_312">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PathIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_313">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PathIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_314">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PersonPicture
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_315">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PersonPictureTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_316">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_317">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PickerFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_318">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PipsPager
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_319">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PipsPagerTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_320">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Pivot
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_321">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PivotItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_323">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.RangeBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_322">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_324">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_325">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressRing
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_326">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_327">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RadioButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_328">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RadioButtons
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_330">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_329">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_331">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RatingControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_333">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RatingItemInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_332">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RatingItemFontInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_334">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RatingItemImageInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_335">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RefreshContainer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_336">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RefreshVisualizer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_338">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_337">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RevealListViewItemPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_339">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RichEditBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_340">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RichTextBlock
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_341">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RichTextBlockOverflow
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_342">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.RowDefinition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_343">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ScrollContentPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_344">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ScrollView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_345">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ScrollViewer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_346">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SelectorBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_347">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SelectorBarItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_348">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SemanticZoom
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_349">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Slider
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_350">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SplitButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_351">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SplitView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_352">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.StackLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_353">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.StackPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_354">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_355">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SwapChainPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_356">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SwipeControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_357">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SwipeItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_358">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SwipeItems
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_359">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SymbolIcon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_360">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.SymbolIconSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_361">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TabView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_362">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TabViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_363">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_364">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TeachingTip
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_365">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_366">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TextBlock
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_367">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TextCommandBarFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_368">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TimePickedEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_369">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TimePicker
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_370">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TimePickerFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_371">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_372">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ToggleSplitButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_373">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ToggleSwitch
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_374">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ToolTip
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_375">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TreeView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_376">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TreeViewItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_377">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TreeViewItemTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_378">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TreeViewList
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_379">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TreeViewNode
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_380">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TwoPaneView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_381">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.UniformGridLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_382">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_383">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Viewbox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_384">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.VirtualizingLayoutContext
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_385">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.VirtualizingPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_387">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_386">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.VirtualizingStackPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_388">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.WebView2
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_389">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.WrapGrid
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_390">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ExpanderAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_391">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.LayoutPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_392">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NumberBoxAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_393">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PagerControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_394">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.PagerControlTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_395">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressBarAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_396">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ProgressRingAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_397">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.FlowLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_402">
+            <summary>
+            Builder for Android.Widget.TextView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_401">
+            <summary>
+            Builder for Android.Widget.Button
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_400">
+            <summary>
+            Builder for AndroidX.AppCompat.Widget.AppCompatButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_399">
+            <summary>
+            Builder for Uno.UI.Controls.BindableButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_398">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.BindableButtonEx
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_403">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ImplicitTextBlock
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_404">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DatePickerSelector
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_405">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativeDatePickerFlyout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_406">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.DropDownButtonAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_409">
+            <summary>
+            Builder for AndroidX.ViewPager.Widget.ViewPager
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_408">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativePagedView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_407">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativeFlipView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_410">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.ListViewBaseScrollContentPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_413">
+            <summary>
+            Builder for AndroidX.RecyclerView.Widget.RecyclerView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_412">
+            <summary>
+            Builder for Uno.UI.UnoRecyclerView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_411">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativeListViewBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_414">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativePivotPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_416">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.Popup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_415">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.NativePopupBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_417">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.TimePickerSelector
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_418">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.WebView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_419">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.WrapPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_420">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Maps.MapInputEventArgs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_421">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.AppBarButtonTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_422">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.AppBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_423">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.AppBarToggleButtonTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_424">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CalendarPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_425">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_426">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_427">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ColorPickerSlider
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_428">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_429">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ColumnMajorUniformToLargestGridLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_430">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_431">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_432">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_433">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_434">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_435">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_436">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_437">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.GridViewItemTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_438">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.InfoBarPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_439">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_440">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.JumpListItemForegroundConverter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_441">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ListViewItemTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_442">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_443">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_444">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_445">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutItemTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_446">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutPresenterTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_447">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.MonochromaticOverlayPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_448">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_449">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenterTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_450">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_451">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_452">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.PivotPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_453">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.RepeatButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_454">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ScrollBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_455">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_456">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.SplitViewTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_457">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.TabViewListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_458">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.Thumb
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_459">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.TickBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_460">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_461">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_462">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ColorPickerSliderAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_463">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrumAutomationPeer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_464">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Controls.Primitives.NativePopup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_466">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Data.BindingBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_465">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Data.Binding
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_467">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Data.CollectionViewSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_468">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Data.TemplateBinding
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_470">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.TextElement
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_469">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Block
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_471">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.BlockCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_474">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Inline
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_473">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Span
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_472">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Bold
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_475">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Glyphs
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_476">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Hyperlink
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_477">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.InlineUIContainer
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_478">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Italic
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_479">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.LineBreak
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_480">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Paragraph
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_481">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Run
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_482">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.TextHighlighterBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_483">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Documents.Underline
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_484">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Input.InputScope
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_485">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Input.InputScopeName
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_486">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Input.KeyboardAccelerator
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_488">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Input.XamlUICommand
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_487">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Input.StandardUICommand
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_491">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Brush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_490">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_489">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.AcrylicBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_493">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PathSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_492">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.ArcSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_494">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.BezierSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_496">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.CacheMode
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_495">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.BitmapCache
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_499">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GeneralTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_498">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Transform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_497">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.CompositeTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_501">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.SystemBackdrop
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_500">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_503">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Geometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_502">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.EllipseGeometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_504">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GeometryCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_505">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GeometryGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_506">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GradientStop
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_507">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GradientStopCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_508">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.ImageBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_509">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.ImageSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_511">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.GradientBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_510">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.LinearGradientBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_512">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.LineGeometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_513">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.LineSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_515">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Projection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_514">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Matrix3DProjection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_516">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.MatrixTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_517">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.MicaBackdrop
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_518">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PathFigure
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_519">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PathFigureCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_520">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PathGeometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_521">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PathSegmentCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_522">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PlaneProjection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_523">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PolyBezierSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_524">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PolyLineSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_525">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_526">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.QuadraticBezierSegment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_527">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RadialGradientBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_528">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RectangleGeometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_529">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RotateTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_530">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.ScaleTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_531">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Shadow
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_532">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.SkewTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_533">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.SolidColorBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_534">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.ThemeShadow
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_535">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.TileBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_536">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.TransformGroup
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_537">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.TranslateTransform
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_538">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.XamlLight
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_539">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RevealBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_540">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RevealBackgroundBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_541">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.RevealBorderBrush
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_543">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.Transition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_542">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.AddDeleteThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_545">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EasingFunctionBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_544">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.BackEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_546">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.BeginStoryboard
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_547">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.BounceEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_548">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.CircleEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_550">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.Timeline
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_549">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ColorAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_551">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_552">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_554">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_553">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_555">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ContentThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_556">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_557">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.CubicEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_559">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_558">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DiscreteColorKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_561">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_560">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DiscreteDoubleKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_563">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_562">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_565">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PointKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_564">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DiscretePointKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_566">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DoubleAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_567">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_568">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_569">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DragItemThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_570">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_571">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DrillInNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_572">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DrillInThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_573">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_574">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_575">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_576">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EasingDoubleKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_577">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EasingPointKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_578">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EdgeUIThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_579">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ElasticEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_580">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_581">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_582">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ExponentialEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_583">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.FadeInThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_584">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.FadeOutThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_585">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.KeySpline
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_586">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.LinearColorKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_587">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.LinearDoubleKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_588">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.LinearPointKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_589">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.NavigationThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_590">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_591">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_592">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_593">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PointAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_594">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_595">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_596">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PointerUpThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_597">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_598">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PopOutThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_599">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PopupThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_600">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.PowerEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_601">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.QuadraticEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_602">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.QuarticEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_603">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.QuinticEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_604">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.ReorderThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_605">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_606">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_607">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SineEase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_608">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_609">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SplineColorKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_610">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SplineDoubleKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_611">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SplinePointKeyFrame
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_612">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_613">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_614">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.Storyboard
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_615">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SuppressNavigationTransitionInfo
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_616">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_617">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_618">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Animation.TimelineCollection
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_620">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.BitmapSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_619">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.BitmapImage
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_621">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_622">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.SoftwareBitmapSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_623">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.SurfaceImageSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_624">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.SvgImageSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_625">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.VirtualSurfaceImageSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_626">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_628">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Media3D.Transform3D
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_627">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_629">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Media.Media3D.PerspectiveTransform3D
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_630">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Navigation.PageStackEntry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_631">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Printing.PrintDocument
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_633">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Shape
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_632">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Ellipse
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_634">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Line
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_635">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Path
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_636">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Polygon
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_637">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Polyline
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_638">
+            <summary>
+            Builder for Microsoft.UI.Xaml.Shapes.Rectangle
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_639">
+            <summary>
+            Builder for Uno.Media.StreamGeometry
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_640">
+            <summary>
+            Builder for Uno.UI.DelegateActivity
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_644">
+            <summary>
+            Builder for Android.Widget.CompoundButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_643">
+            <summary>
+            Builder for Android.Widget.CheckBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_642">
+            <summary>
+            Builder for AndroidX.AppCompat.Widget.AppCompatCheckBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_641">
+            <summary>
+            Builder for Uno.UI.Controls.BindableCheckBox
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_646">
+            <summary>
+            Builder for AndroidX.DrawerLayout.Widget.DrawerLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_645">
+            <summary>
+            Builder for Uno.UI.Controls.BindableDrawerLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_648">
+            <summary>
+            Builder for AndroidX.Fragment.App.Fragment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_647">
+            <summary>
+            Builder for Uno.UI.Controls.BindableFragment
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_651">
+            <summary>
+            Builder for Android.Widget.AdapterView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_650">
+            <summary>
+            Builder for Uno.UI.Controls.NativeHorizontalListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_649">
+            <summary>
+            Builder for Uno.UI.Controls.BindableHorizontalListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_653">
+            <summary>
+            Builder for Android.Widget.ImageView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_652">
+            <summary>
+            Builder for Uno.UI.Controls.BindableImageView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_655">
+            <summary>
+            Builder for Android.Widget.LinearLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_654">
+            <summary>
+            Builder for Uno.UI.Controls.BindableItemsView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_658">
+            <summary>
+            Builder for Android.Widget.BaseAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_657">
+            <summary>
+            Builder for Uno.UI.Controls.ItemContainerHolderAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_656">
+            <summary>
+            Builder for Uno.UI.Controls.BindableListAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_659">
+            <summary>
+            Builder for Uno.UI.Controls.BindableListViewHelpers
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_662">
+            <summary>
+            Builder for Android.Widget.AbsListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_661">
+            <summary>
+            Builder for Android.Widget.ListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_660">
+            <summary>
+            Builder for Uno.UI.Controls.BindableListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_664">
+            <summary>
+            Builder for AndroidX.ViewPager.Widget.PagerAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_663">
+            <summary>
+            Builder for Uno.UI.Controls.BindablePagerAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_666">
+            <summary>
+            Builder for Android.Widget.ProgressBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_665">
+            <summary>
+            Builder for Uno.UI.Controls.BindableProgressBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_669">
+            <summary>
+            Builder for Android.Widget.RadioButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_668">
+            <summary>
+            Builder for AndroidX.AppCompat.Widget.AppCompatRadioButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_667">
+            <summary>
+            Builder for Uno.UI.Controls.BindableRadioButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_672">
+            <summary>
+            Builder for Android.Widget.AbsSeekBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_671">
+            <summary>
+            Builder for Android.Widget.SeekBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_670">
+            <summary>
+            Builder for Uno.UI.Controls.BindableSeekBar
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_674">
+            <summary>
+            Builder for AndroidX.AppCompat.Widget.SwitchCompat
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_673">
+            <summary>
+            Builder for Uno.UI.Controls.BindableSwitchCompat
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_676">
+            <summary>
+            Builder for Android.Widget.ToggleButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_675">
+            <summary>
+            Builder for Uno.UI.Controls.BindableToggleButton
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_677">
+            <summary>
+            Builder for Uno.UI.Controls.NativeCommandBarPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_678">
+            <summary>
+            Builder for Uno.UI.Controls.FauxGradientBorderPresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_679">
+            <summary>
+            Builder for Uno.UI.Controls.GridViewAdapter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_680">
+            <summary>
+            Builder for Uno.UI.Controls.HorizontalGridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_681">
+            <summary>
+            Builder for Uno.UI.Controls.NativeFramePresenter
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_682">
+            <summary>
+            Builder for Uno.UI.Controls.ManagedItemsStackPanel
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_685">
+            <summary>
+            Builder for Android.Widget.GridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_684">
+            <summary>
+            Builder for Uno.UI.Controls.BindableGridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_683">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.GridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_686">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.HorizontalGridView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_687">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.HorizontalListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_688">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.ListView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_689">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.ProgressRing
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_690">
+            <summary>
+            Builder for Uno.UI.Controls.Legacy.Primitives.ProgressRingTemplateSettings
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_692">
+            <summary>
+            Builder for AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_691">
+            <summary>
+            Builder for Uno.UI.Xaml.Controls.NativeRefreshControl
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_694">
+            <summary>
+            Builder for CommunityToolkit.WinUI.Lottie.LottieVisualSourceBase
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_693">
+            <summary>
+            Builder for CommunityToolkit.WinUI.Lottie.LottieVisualSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_695">
+            <summary>
+            Builder for CommunityToolkit.WinUI.Lottie.ThemableLottieVisualSource
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_696">
+            <summary>
+            Builder for Uno.UI.RemoteControl.RemoteControlStatusView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_697">
+            <summary>
+            Builder for Uno.Diagnostics.UI.DiagnosticsOverlay
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_698">
+            <summary>
+            Builder for Uno.UI.Toolkit.ElevatedView
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_699">
+            <summary>
+            Builder for Habits.MainPage
+            </summary>
+        </member>
+        <member name="T:Habits.MetadataBuilder_700">
+            <summary>
+            Builder for Habits.Droid.MainActivity
+            </summary>
+        </member>
+        <member name="T:Habits.GlobalStaticResources">
+            <summary>
+            Contains all the static resources defined for the application
+            </summary>
+        </member>
+        <member name="T:Habits.__Sources__.EmbeddedXamlSourcesProvider">
+            <summary>
+            Provides access to the embedded XAML sources
+            </summary>
+            <remarks>
+            This class is used to provide the embedded XAML sources to the Hot Reload engine.
+            This is not intended to be used directly by application code.
+            WON'T BE GENERATED ON RELEASE BUILDS
+            </remarks>
+        </member>
+        <member name="P:Habits.__Sources__.EmbeddedXamlSourcesProvider.UpdateCounter">
+            <summary>
+            Gets the current update counter, used to detect changes in the sources.
+            </summary>
+            <remarks>
+            This counter is incremented each time a Hot Reload sources update is detected.
+            </remarks>
+        </member>
+        <member name="T:Uno.Resizetizer.WindowExtensions">
+            <summary>
+            Extension methods for the <see cref="T:Microsoft.UI.Xaml.Window" /> class.
+            </summary>
+        </member>
+        <member name="M:Uno.Resizetizer.WindowExtensions.SetWindowIcon(Microsoft.UI.Xaml.Window)">
+            <summary>
+            This will set the Window Icon for the given <see cref="T:Microsoft.UI.Xaml.Window" /> using
+            the provided UnoIcon.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Habits">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Habits" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Habits">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Habits" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+    </members>
+</doc>

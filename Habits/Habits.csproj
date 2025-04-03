@@ -1,0 +1,30 @@
+<Project Sdk="Uno.Sdk">
+    <PropertyGroup>
+        <!-- Removed Windows target -->
+        <TargetFrameworks>net9.0-android;net9.0-browserwasm;net9.0-desktop</TargetFrameworks>
+
+        <OutputType>Exe</OutputType>
+        <UnoSingleProject>true</UnoSingleProject>
+
+        <!-- Display name -->
+        <ApplicationTitle>Habits</ApplicationTitle>
+        <!-- App Identifier -->
+        <ApplicationId>com.companyname.Habits</ApplicationId>
+        <!-- Versions -->
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <ApplicationVersion>1</ApplicationVersion>
+        <!-- Package Publisher -->
+        <ApplicationPublisher>O=Habits</ApplicationPublisher>
+        <!-- Package Description -->
+        <Description>Habits powered by Uno Platform.</Description>
+
+        <UnoFeatures>
+            Material;
+            Dsp;
+            Toolkit;
+            Mvvm;
+            ThemeService;
+        </UnoFeatures>
+    </PropertyGroup>
+
+</Project>

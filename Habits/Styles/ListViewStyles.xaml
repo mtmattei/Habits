@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:Habits.Models"
+    xmlns:converters="using:Habits.Converters">
+
+    <!-- Base ListView Style -->
+    <Style x:Key="BaseListViewStyle" TargetType="ListView">
+        <Setter Property="Padding" Value="0,20,0,0" />
+        <Setter Property="SelectionMode" Value="None" />
+        <Setter Property="IsItemClickEnabled" Value="True" />
+        <Setter Property="Background" Value="Transparent" />
+    </Style>
+
+    <!-- Style1 with ProgressRing -->
+    <Style x:Key="Style1" TargetType="ListView" BasedOn="{StaticResource BaseListViewStyle}">
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate x:DataType="models:Habit">
+                    <StackPanel Margin="0,5">
+                        <!-- Main Information -->
+                        <Border Background="{ThemeResource SurfaceVariantColor}" BorderThickness="0.8" Height="65" CornerRadius="8,8,0,0" HorizontalAlignment="Stretch" Margin="0,5,0,0">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*,Auto" Padding="20,10" RowSpacing="12" VerticalAlignment="Center">
+                                <ProgressRing Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" VerticalAlignment="Center"
+                                            Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}"
+                                            Height="50" Width="50" Margin="0,0,15,0"
+                                            Value="{x:Bind PercentageValue, Mode=OneWay}"
+                                            Minimum="0" Maximum="100" IsIndeterminate="False" />
+                                <TextBlock Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" VerticalAlignment="Center" Text="{x:Bind Percentage, Mode=OneWay}" FontWeight="Bold" FontSize="12" Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" Padding="15,0,10,0"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="{x:Bind Title, Mode=OneWay}" VerticalAlignment="Bottom" Foreground="{ThemeResource OnSurfaceVariantColor}" FontSize="12"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="{x:Bind Description, Mode=OneWay}" VerticalAlignment="Top" Foreground="{ThemeResource OutlineColor}" FontSize="12"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" VerticalAlignment="Center">
+                                    <Run Text="{x:Bind Amount, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceVariantColor}" FontSize="18"/>
+                                    <Run Text="{x:Bind AmountType, Mode=OneWay}" Foreground="{ThemeResource OutlineColor}" FontSize="11"/>
+                                </TextBlock>
+                            </Grid>
+                        </Border>
+                        <!-- Action informations -->
+                        <Border Background="{ThemeResource SurfaceInverseColor}" BorderThickness="0.8" Height="30" CornerRadius="0,0,8,8" HorizontalAlignment="Stretch">
+                            <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" Padding="20,0" RowSpacing="5" VerticalAlignment="Center">
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Less" Foreground="{ThemeResource OutlineColor}" FontSize="12" HorizontalAlignment="Left"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Options" Foreground="{ThemeResource OutlineColor}" FontSize="12" HorizontalAlignment="Center"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="More" Foreground="{ThemeResource OutlineColor}" FontSize="12" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Style2 (previously Fluent) - based on the Walking screenshot -->
+    <Style x:Key="Style2" TargetType="ListView" BasedOn="{StaticResource BaseListViewStyle}">
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate x:DataType="models:Habit">
+                    <Border Background="{ThemeResource SurfaceColor}" CornerRadius="12" Margin="0,5,0,5"
+                            Padding="16" BorderThickness="0">
+                        <StackPanel>
+                            <!-- Header with Title and Amount -->
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Left side: Icon and title -->
+                                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                    <Border Background="{ThemeResource PrimaryContainerColor}" Width="36" Height="36"
+                                            CornerRadius="18" Margin="0,0,12,0">
+                                        <TextBlock Text="🚶" FontSize="18"
+                                                 HorizontalAlignment="Center"
+                                                 VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <TextBlock Text="{x:Bind Title, Mode=OneWay}" FontSize="16"
+                                                 FontWeight="SemiBold" Foreground="{ThemeResource OnSurfaceColor}"/>
+                                        <TextBlock Text="{x:Bind Description, Mode=OneWay}" FontSize="13"
+                                                 Foreground="{ThemeResource OnSurfaceVariantColor}" Margin="0,4,0,0"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <!-- Right side: Amount -->
+                                <StackPanel Grid.Column="1" HorizontalAlignment="Right"
+                                          VerticalAlignment="Center">
+                                    <TextBlock Text="{x:Bind Amount, Mode=OneWay}" FontSize="16"
+                                             FontWeight="SemiBold" HorizontalAlignment="Right"
+                                             Foreground="{ThemeResource OnSurfaceColor}"/>
+                                    <TextBlock Text="{x:Bind AmountType, Mode=OneWay}" FontSize="13"
+                                             HorizontalAlignment="Right" Foreground="{ThemeResource OnSurfaceVariantColor}"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Progress area -->
+                            <Grid Margin="0,16,0,16">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Percentage circle -->
+                                <Border Background="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" Width="40" Height="40"
+                                        CornerRadius="20" Margin="0,0,12,0">
+                                    <TextBlock Text="{x:Bind Percentage, Mode=OneWay}" Foreground="{ThemeResource OnPrimaryColor}"
+                                             FontWeight="SemiBold" FontSize="12"
+                                             HorizontalAlignment="Center"
+                                             VerticalAlignment="Center"/>
+                                </Border>
+
+                                <!-- Progress bar -->
+                                <ProgressBar Grid.Column="1" Value="{x:Bind PercentageValue, Mode=OneWay}" Maximum="100"
+                                           Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" 
+                                           Background="{ThemeResource OutlineVariantColor}"
+                                           Height="8" VerticalAlignment="Center"
+                                           BorderThickness="0" />
+                            </Grid>
+
+                            <!-- Action buttons -->
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Less button -->
+                                <Border Grid.Column="0" Background="Transparent"
+                                      HorizontalAlignment="Left">
+                                    <TextBlock Text="Less" Foreground="{ThemeResource OnSurfaceVariantColor}" FontSize="13"
+                                             Padding="8,4"/>
+                                </Border>
+
+                                <!-- Options button -->
+                                <Border Grid.Column="1" Background="{ThemeResource PrimaryContainerColor}" CornerRadius="16"
+                                      HorizontalAlignment="Center">
+                                    <TextBlock Text="Options" Foreground="{ThemeResource PrimaryColor}" FontSize="13"
+                                             FontWeight="SemiBold" Padding="16,4"/>
+                                </Border>
+
+                                <!-- More button -->
+                                <Border Grid.Column="2" Background="Transparent"
+                                      HorizontalAlignment="Right">
+                                    <TextBlock Text="More" Foreground="{ThemeResource ErrorColor}" FontSize="13"
+                                             Padding="8,4"/>
+                                </Border>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Style3 (previously ProgressBarListViewStyle) - based on the green progress bar image -->
+    <Style x:Key="Style3" TargetType="ListView" BasedOn="{StaticResource BaseListViewStyle}">
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate x:DataType="models:Habit">
+                    <Border Background="{ThemeResource SurfaceColor}" Margin="0,5,0,0" Padding="16" CornerRadius="8">
+                        <StackPanel>
+                            <!-- Header with Title and Amount -->
+                            <Grid ColumnDefinitions="*,Auto">
+                                <TextBlock Grid.Column="0" Text="{x:Bind Title, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceColor}"
+                                        FontSize="14" FontWeight="SemiBold"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                    <TextBlock Text="{x:Bind Amount, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceColor}"
+                                            FontSize="14" FontWeight="SemiBold"/>
+                                    <TextBlock Text="{x:Bind AmountType, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceVariantColor}"
+                                            FontSize="12" Margin="4,0,0,0" VerticalAlignment="Bottom"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Description -->
+                            <TextBlock Text="{x:Bind Description, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceVariantColor}"
+                                    FontSize="12" Margin="0,2,0,8"/>
+
+                            <!-- Progress Bar and Percentage -->
+                            <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto">
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Bind Percentage, Mode=OneWay}"
+                                        Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" 
+                                        FontWeight="SemiBold"
+                                        FontSize="12" Margin="0,0,0,4"/>
+                                <ProgressBar Grid.Row="1" Grid.ColumnSpan="2" Value="{x:Bind PercentageValue, Mode=OneWay}" Maximum="100"
+                                            Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" 
+                                            Background="{ThemeResource OutlineVariantColor}"
+                                            Height="6" BorderThickness="0"
+                                            CornerRadius="3" Margin="0,0,0,12"/>
+                            </Grid>
+
+                            <!-- Action buttons -->
+                            <Grid ColumnDefinitions="*,*,*">
+                                <TextBlock Grid.Column="0" Text="Less" Foreground="{ThemeResource PrimaryColor}"
+                                        FontSize="12" HorizontalAlignment="Left"/>
+                                <TextBlock Grid.Column="1" Text="Options" Foreground="{ThemeResource PrimaryColor}"
+                                        FontSize="12" HorizontalAlignment="Center"/>
+                                <TextBlock Grid.Column="2" Text="More" Foreground="{ThemeResource PrimaryColor}"
+                                        FontSize="12" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Vibrant Style - Bold, vibrant colors with sharp corners -->
+    <Style x:Key="VibrantListViewStyle" TargetType="ListView" BasedOn="{StaticResource BaseListViewStyle}">
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate x:DataType="models:Habit">
+                    <StackPanel Margin="0,5">
+                        <!-- Main Information - No rounded corners -->
+                        <Border Background="{ThemeResource SurfaceInverseColor}" BorderThickness="2" BorderBrush="{ThemeResource PrimaryColor}" Height="65" CornerRadius="0" HorizontalAlignment="Stretch" Margin="0,5,0,0">
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*,Auto" Padding="20,10" RowSpacing="5" VerticalAlignment="Center">
+                                <ProgressRing Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" VerticalAlignment="Center"
+                                              Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}"
+                                              Height="50" Width="50" Margin="0,0,15,0"
+                                              Value="{x:Bind PercentageValue, Mode=OneWay}"
+                                              Minimum="0" Maximum="100" IsIndeterminate="False" />
+                                <TextBlock Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" VerticalAlignment="Center" Text="{x:Bind Percentage, Mode=OneWay}" FontWeight="Bold" FontSize="12" Foreground="{x:Bind ColorCategory, Converter={StaticResource ColorCategoryConverter}, Mode=OneWay}" Padding="15,0,10,0"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="{x:Bind Title, Mode=OneWay}" VerticalAlignment="Bottom" Foreground="{ThemeResource OnSurfaceInverseColor}" FontSize="14" FontWeight="Bold"/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Text="{x:Bind Description, Mode=OneWay}" VerticalAlignment="Top" Foreground="{ThemeResource ErrorColor}" FontSize="12"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" VerticalAlignment="Center">
+                                    <Run Text="{x:Bind Amount, Mode=OneWay}" Foreground="{ThemeResource OnSurfaceInverseColor}" FontSize="18" FontWeight="Bold"/>
+                                    <Run Text="{x:Bind AmountType, Mode=OneWay}" Foreground="{ThemeResource TertiaryColor}" FontSize="11"/>
+                                </TextBlock>
+                            </Grid>
+                        </Border>
+                        <!-- Action informations -->
+                        <Border Background="{ThemeResource BackgroundColor}" BorderThickness="2,0,2,2" BorderBrush="{ThemeResource PrimaryColor}" Height="30" CornerRadius="0" HorizontalAlignment="Stretch">
+                            <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" Padding="20,0" RowSpacing="5" VerticalAlignment="Center">
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Less" Foreground="{ThemeResource PrimaryColor}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Left"/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Options" Foreground="{ThemeResource SecondaryColor}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="More" Foreground="{ThemeResource TertiaryColor}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

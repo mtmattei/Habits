@@ -1,0 +1,4 @@
+drawable\assets_icons_icon_foreground;drawable\Assets_Icons_icon_foreground
+drawable\splash_screen;drawable\splash_screen
+values\strings;values\Strings
+values\styles;values\Styles

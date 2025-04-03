@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.fluent\\2.6.1\\lib\\netstandard1.0\\Uno.Fonts.Fluent\\Fonts\\uno-fluentui-assets.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.Fluent\\Fonts\\uno-fluentui-assets.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Italic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Light.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Medium.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans.ttf.manifest",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans.ttf.manifest"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Light.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_Condensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.opensans\\2.5.0\\lib\\net7.0\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.OpenSans\\Fonts\\OpenSans_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.roboto\\2.2.2\\lib\\netstandard2.0\\Uno.Fonts.Roboto\\Fonts\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.Roboto\\Fonts\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.roboto\\2.2.2\\lib\\netstandard2.0\\Uno.Fonts.Roboto\\Fonts\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.Roboto\\Fonts\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\.nuget\\packages\\uno.fonts.roboto\\2.2.2\\lib\\netstandard2.0\\Uno.Fonts.Roboto\\Fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.Fonts.Roboto\\Fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Assets\\SharedAssets.md",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\SharedAssets.md"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Platforms\\WebAssembly\\WasmCSS\\Fonts.css",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Platforms\\WebAssembly\\wwwroot\\staticwebapp.config.json",
+      "PackagePath": "staticwebassets\\staticwebapp.config.json"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\Platforms\\WebAssembly\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\AppIcons\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\AppIcons\\icon-128.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\icon-128.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\AppIcons\\icon-16.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\icon-16.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\AppIcons\\icon-32.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\icon-32.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\AppIcons\\icon-512.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-100.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-100.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-125.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-125.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-150.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-150.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-200.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-200.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-300.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-300.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\Assets\\Icons\\icon_foreground.scale-400.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Assets\\Icons\\icon_foreground.scale-400.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-100.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-100.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-125.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-125.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-150.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-150.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-200.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-200.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-300.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-300.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\r\\splash_screen.scale-400.png",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\splash_screen.scale-400.png"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unoresizetizer\\sp\\UnoAppManifest.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\AppManifest.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\Uno.UI.css",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.UI.css"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\Uno.UI.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\Uno.UI.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\WasmWebSockets.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\WasmWebSockets.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\lottie.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\lottie.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\normalize.css",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\require.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\require.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\setImmediate.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\setImmediate.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\uno-assets.txt",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\uno-assets.txt"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\uno-bootstrap.css",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\uno-bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\uno-bootstrap.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\uno-bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\uno-config.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\uno-config.js"
+    },
+    {
+      "Id": "C:\\Users\\Platform006\\RiderProjects\\Habits\\Habits\\obj\\Debug\\net9.0-browserwasm\\unowwwrootassets\\uno-lottie.js",
+      "PackagePath": "staticwebassets\\package_3aecd3ff8db5661eb7f359d82f11a41dc6d958fd\\uno-lottie.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-browserwasm\\staticwebassets\\msbuild.Habits.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-browserwasm\\staticwebassets\\msbuild.Habits.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-browserwasm\\staticwebassets\\msbuild.build.Habits.props",
+      "PackagePath": "build\\Habits.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-browserwasm\\staticwebassets\\msbuild.buildMultiTargeting.Habits.props",
+      "PackagePath": "buildMultiTargeting\\Habits.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-browserwasm\\staticwebassets\\msbuild.buildTransitive.Habits.props",
+      "PackagePath": "buildTransitive\\Habits.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
